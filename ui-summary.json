@@ -1,0 +1,11 @@
+{
+  "title": "型サイズ換算カード",
+  "archetype": "swap_compare",
+  "interaction_model": "tone_slider_with_candidate_cards",
+  "primary_layout": "tone_controls_with_candidate_stack",
+  "result_presentation_style": "temperature_ranked_copy_cards",
+  "palette_motif": "返信サンセット",
+  "main_cta": "断り文で試す",
+  "intro_variant": "tone_balance",
+  "ui_variant": "tone"
+}
