@@ -45,11 +45,11 @@
   .first-view__grid{grid-template-columns:1fr}
 }
 </style><link rel="stylesheet" href="/src/style.css"></head>
-<body><div id="app" data-ui-variant="tone" data-primary-layout="tone_controls_with_candidate_stack"><section class="first-view first-view--tone" data-ready-role="first-view">
+<body><div id="app" data-ui-variant="recipe" data-primary-layout="pan_size_editor_with_ratio_result"><section class="first-view first-view--recipe" data-ready-role="first-view">
   <div class="first-view__top">
     <div>
       <div class="mini-label">Day077</div>
-      <p class="first-view__eyebrow">返信サンセット</p>
+      <p class="first-view__eyebrow">レシピ型換算ベリー</p>
     </div>
     <a class="intro-link" href="https://github.com/ryo909/ai-dev-day-077" target="_blank" rel="noopener">GitHub</a>
   </div>
@@ -66,7 +66,7 @@
     </article>
     <article class="fv-block fv-block--start" data-ready-role="start-block">
       <p class="fv-kicker">最初にやること</p>
-      <h2>強さを動かして比べる</h2>
+      <h2>元の型と手元の型を足す</h2>
       <dl class="fv-pair">
         <dt>入力 / 操作</dt>
         <dd>入力</dd>
@@ -76,7 +76,7 @@
         <dd>ここに入力...</dd>
       </dl>
       <p class="fv-helper">型と分量を入れると、倍率が出ます。</p>
-      <button id="sampleFillBtn" data-ready-role="primary-cta" class="primary-intro-btn" style="background:linear-gradient(135deg,var(--fv-accent),var(--fv-accent-2))">断り文で試す</button>
+      <button id="sampleFillBtn" data-ready-role="primary-cta" class="primary-intro-btn" style="background:linear-gradient(135deg,var(--fv-accent),var(--fv-accent-2))">手元の型で試す</button>
       <p class="fv-inline-note">初見なら「例で試す」から始めると、そのまま結果見本まで確認できます。</p>
     </article>
     <article class="fv-block fv-block--preview" data-ready-role="output-preview">
@@ -90,4 +90,4 @@
       </div>
     </article>
   </div>
-</section><section class="brief-canvas brief-canvas--tone"><div id="briefCanvas"></div></section></div><script type="module" src="/src/main.js"></script></body></html>
+</section><section class="brief-canvas brief-canvas--recipe"><div id="briefCanvas"></div></section></div><script type="module" src="/src/main.js"></script></body></html>
